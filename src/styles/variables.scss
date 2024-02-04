@@ -1,0 +1,25 @@
+
+/**
+ * Do not edit directly
+ * Generated on Tue, 16 Jan 2024 10:13:24 GMT
+ */
+
+$breakpoints-sm: 720px !default;
+$breakpoints-md: 1024px !default;
+$breakpoints-lg: 1360px !default;
+$color-black: #000000 !default;
+$color-white: #ffffff !default;
+$color-blue: #0000ff !default;
+
+$tokens: (
+  'breakpoints': (
+    'sm': $breakpoints-sm,
+    'md': $breakpoints-md,
+    'lg': $breakpoints-lg
+  ),
+  'color': (
+    'black': $color-black,
+    'white': $color-white,
+    'blue': $color-blue
+  )
+);

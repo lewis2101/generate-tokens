@@ -1,0 +1,13 @@
+{
+  "color": {
+    "black": {
+      "value": "#000000"
+    },
+    "white": {
+      "value": "#ffffff"
+    },
+    "blue": {
+      "value": "blue"
+    }
+  }
+}
