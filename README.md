@@ -4,5 +4,5 @@ The project has two scripts
 2. Generate svg icons to svg-sprite with easely changing colors using vue props. After generaing will be created file for interface the icons in ts file
 
 <div>Contacts: </div>
-Telegram: @bmustafaev 
-Email: bauka2101bux@gmail.com
+<div>Telegram: @bmustafaev</div>
+<div>Email: bauka2101bux@gmail.com</div>
