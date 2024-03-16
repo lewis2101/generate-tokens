@@ -1,7 +1,7 @@
 
 /**
- * Do not edit directly
- * Generated on Tue, 16 Jan 2024 10:13:24 GMT
+ * На прямую не редактировать
+ * Сгенерировано через скрипт generate-tokens
  */
 
 $breakpoints-sm: 720px !default;
@@ -10,6 +10,7 @@ $breakpoints-lg: 1360px !default;
 $color-black: #000000 !default;
 $color-white: #ffffff !default;
 $color-blue: #0000ff !default;
+$color-green: #008000 !default;
 
 $tokens: (
   'breakpoints': (
@@ -20,6 +21,7 @@ $tokens: (
   'color': (
     'black': $color-black,
     'white': $color-white,
-    'blue': $color-blue
+    'blue': $color-blue,
+    'green': $color-green
   )
 );

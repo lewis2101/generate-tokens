@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "generate-tokens": "node scripts/generate-tokens.js"
+    "generate-tokens": "node scripts/generate-tokens.js",
+    "generate-icons": "node scripts/generate-icons.js"
   },
   "dependencies": {
     "style-dictionary": "^3.9.1",
+    "svg-sprite": "^2.0.3",
     "vue": "^3.3.11"
   },
   "devDependencies": {

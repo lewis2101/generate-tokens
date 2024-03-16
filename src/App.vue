@@ -1,10 +1,18 @@
 <script setup lang="ts">
+import Icon from "./styles/sprite/Icon.vue";
+import {names} from "./styles/sprite/icon.sprite";
+import { ColorBlack, ColorGreen } from './constants/index'
+
+const colorIcon = ColorBlack
 
 </script>
 
 <template>
+  <h1>ICONS: </h1>
 <div :class="$style.container">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur dignissimos ea expedita iste labore laudantium nesciunt optio quae quis quisquam vel. Ad eius libero porro voluptatum. Consequatur consequuntur impedit minima porro provident quae quidem quod repellat ut voluptatibus. Accusamus aliquam asperiores blanditiis incidunt minima nemo quibusdam temporibus unde voluptates?
+  <div :class="$style.icon" v-for="name in names" :key="name">
+    <icon :color="colorIcon" size="3rem" :name="name"/>
+  </div>
 </div>
 </template>
 
@@ -13,20 +21,18 @@
 @use './styles/mixins/breakpoints' as *;
 
 .container {
-  border: 1px $color-black solid;
-  height: 100px;
-  @include breakpoint_up('lg') {
-    background: pink;
-  }
-  @include breakpoint_up('md') {
-    background: green;
-  }
-  @include breakpoint_up('sm') {
-    background: purple;
-  }
-
+  padding: 10px;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
 }
-
+.icon {
+  padding: 10px;
+  border: 1px black solid;
+}
+.icon-svg {
+  color: $color-black;
+}
 
 
 </style>
